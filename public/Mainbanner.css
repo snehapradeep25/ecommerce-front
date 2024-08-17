@@ -1,0 +1,12 @@
+.banner {
+    width: 100%;
+    text-align: center; /* Center the banner image */
+    margin: 20px 0; /* Space above and below the banner */
+}
+
+.banner img {
+    width: 100%; /* Make the image full width */
+    max-width: 1200px; /* Limit the max-width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+}

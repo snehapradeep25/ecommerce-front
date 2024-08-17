@@ -1,0 +1,38 @@
+/* Popular.css */
+
+.popular {
+
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Cursive';
+}
+
+.pop-des {
+  font-family: 'Cursive';
+}
+
+.pop-des h1 {
+  font-family: 'Cursive';
+}
+
+.popular-item {
+  width: 100%;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap:10px;
+
+}
+
+.popular-item .item {
+  margin: 10px;
+  
+}
+.popular-item img{
+  border:1px solid black;
+  border-radius: 15px;
+  transition:transform 0.3s ease;
+}
+.popular-item img:hover{
+  transform: scale(1.1)
+}
